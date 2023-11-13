@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS "questionoftheday" (
+	"id"	INTEGER NOT NULL DEFAULT 001 UNIQUE,
+	"question"	TEXT NOT NULL UNIQUE,
+	"timesused"	INTEGER DEFAULT 0,
+	PRIMARY KEY("id")
+);
