@@ -15,9 +15,9 @@ description = '''LevelLimit Bot, created by LetsGoAshe'''
 intents = discord.Intents.all()
 ## Bot Commands Initial and collectives
 bot = commands.Bot(command_prefix='?', case_insensitive=True, description=description, intents=intents)
-## -------------------------------------------------------
+## --------------------------------------------------------
 initial_extensions = []
-## -------------------------------------------------------
+## --------------------------------------------------------
 ## This is the unique Bot TOKEN
 TOKEN = os.getenv('BOT TOKEN HERE')
 ## -------------------------------------------------------
